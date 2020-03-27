@@ -2712,6 +2712,12 @@ svg.margin {
         margin-top: 0px;
     }
 
+    .service-p {
+        width: 450px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
     .icon-group {
         width: 300px;
     }
@@ -3350,6 +3356,7 @@ svg.margin {
         width: 20%;
         margin: 0;
         padding: 0;
+        max-height: 680px;
     }
 
     /*-- -------------------------- -->
