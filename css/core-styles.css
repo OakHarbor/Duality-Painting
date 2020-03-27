@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 
 /*-- -------------------------- -->
@@ -440,8 +442,7 @@ h1, h2, h3, h4, h5, h6 {
     top: -2px;
     left: 0;
     background: rgb(0,48,107);
-    background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
-    background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    background: -o-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
     background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
     opacity: .95;
@@ -559,9 +560,16 @@ h1, h2, h3, h4, h5, h6 {
     .contact-group {
         width: 600px;
         margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .contact-group h2 {
@@ -965,7 +973,9 @@ footer p {
     bottom: 107px;
     height: 54px !important;
     width: 100%;
-    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+        -ms-transform: scaleY(-1);
+            transform: scaleY(-1);
 }
 
 .branding {
@@ -1065,7 +1075,9 @@ footer p {
     
     .footer-wave-bottom {
         bottom: 125px;
-        transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+            -ms-transform: scaleY(-1);
+                transform: scaleY(-1);
     }
 
 	.branding {
