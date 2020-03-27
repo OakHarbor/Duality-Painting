@@ -10,12 +10,12 @@
 }
 
 :root {
-    --primary: #1375BC;
-    --dark: #0a3b5e;
-    --light: #a1c8e4;
+    --primary: #4d6e97;
+    --dark: #00306b;
+    --light: #b3c1d3;
     --secondary: #EB1D24;
     --secondaryLight: #f7a5a7;
-    --secondaryDark: #760f12;
+    --secondaryDark: #000;
 }
 
 body, html {
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Buttons */
 .button-solid {
-	background: var(--primary);
+	background: #000;
 	border-radius: 3px;
 	border: none;
 	color: #fff;
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("/images/room3.jpg");
+    background:url("../images/img-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -437,9 +437,13 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 0;
+    top: -2px;
     left: 0;
-    background: var(--primary);
+    background: rgb(0,48,107);
+    background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
     opacity: .95;
 }
 
@@ -478,6 +482,35 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     color: #4c4c4c;
     width: 200px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 330px) {
+
+    #mobile-logo {
+        height: 25px;
+    }
+
+    #hero {
+        height: initial;
+        max-height: calc(100vh - 50px );
+    }
+
+    #home-h {
+        font-size: 2em;
+    }
+
+    #home-p {
+        font-size: .8em;
+    }
+
+    .quote-button {
+        height: 40px;
+        margin: 0;
+    }
+
+    .right-card
+
 }
 
 /* Tablets */
@@ -540,13 +573,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .contact-group p {
-        width: 370px;
+        width: 320px;
         text-align: left;
         margin-bottom: 0;
     }
 
     .contact-button {
         display: inline-block;
+        margin: auto;
     }
 }
 
@@ -852,8 +886,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* mobile footer */
 
+.footer-wave {
+    height: 60px !important;
+    position: absolute;
+    top: -58px;
+}
+
 footer {
-	background: var(--dark);
+    position: relative;
+	background: #000;
 	padding-top: 50px;
 }
 
@@ -867,9 +908,9 @@ footer {
 }
 
 footer img {
-    height: 70px;
+    height: 170px;
     width: auto;
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .line {
@@ -893,8 +934,7 @@ footer p {
 }
 
 .footer-call {
-	font-size: 1.389em
-    ;
+	font-size: 1.389em;
 	font-weight: 700;
 	position: relative;
 }
@@ -914,11 +954,27 @@ footer p {
     margin-bottom: 0px;
 }
 
+.item-1 {
+    margin-bottom: 80px;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.footer-wave-bottom {
+    position: absolute;
+    bottom: 107px;
+    height: 54px !important;
+    width: 100%;
+    transform: scaleY(-1);
+}
+
 .branding {
 	background: #041219;
-	padding-top: 40px;
 	padding-bottom: 40px;
-	text-align: center;
+    text-align: center;
+    padding-top: 80px;
 }
 
 .branding p {
@@ -932,6 +988,14 @@ footer p {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 330px) {
+
+    .footer-wave-bottom {
+        bottom: 130px;
+    }
+
+}
+
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
@@ -942,7 +1006,7 @@ footer p {
 
     footer img {
         width: auto;
-        height: 80px;
+        height: 180px;
     }
 
     .item-content p {
@@ -959,8 +1023,9 @@ footer p {
     }
     
     footer img {
-        height: 80px;
+        height: 180px;
         width: auto;
+        margin-top: 0;
     }
 
 	.footer-container {
@@ -998,10 +1063,16 @@ footer p {
 	.item-content span {
 		display: block;
 		margin-left: 32px;
-	}
+    }
+    
+    .footer-wave-bottom {
+        bottom: 125px;
+        transform: scaleY(-1);
+    }
 
 	.branding {
         margin-top: 50px;
+        padding-top: 100px;
     }
     
     .brnd {
