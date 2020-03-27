@@ -3364,7 +3364,7 @@ svg.margin {
     <--- -------------------------- -*/
 
     #trust-us {
-        background-attachment: fixed;
+        background-position: bottom;
     }
 
     .review-group {
