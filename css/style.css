@@ -2557,7 +2557,7 @@ svg.margin {
     background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
     background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
-    opacity: .9;
+    opacity: .98;
 }
 
 /*-- -------------------------- -->
