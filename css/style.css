@@ -4,6 +4,10 @@
 <---           LANDING          -->
 <--- -------------------------- -*/
 
+.landing-wave {
+    display: none;
+}
+
 #hero {
     height: 650px;
     width: 100%;
@@ -3039,6 +3043,14 @@ svg.margin {
     .about-button {
         width: 188px;
         margin-right: 30px;
+    }
+
+    .landing-wave {
+        display: block;
+        position: absolute;
+        height: 150px !important;
+        z-index: 100;
+        bottom: 0;
     }
 
     /*-- -------------------------- -->
