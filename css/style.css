@@ -1111,23 +1111,12 @@ svg.margin {
 }
 
 .gallery-topper {
-    background: url("/images/img-2.jpg");
+    background: #000 !important;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
     position: relative;
     width: 100%;
-}
-
-.dark {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    opacity: .85;
 }
 
 .gallery-topper h2 {
@@ -2379,23 +2368,12 @@ svg.margin {
 }
 
 .gallery-topper {
-    background: url("/images/img-2.jpg");
+    background: #000;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
     position: relative;
     width: 100%;
-}
-
-.dark {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    opacity: .85;
 }
 
 .gallery-topper h2 {
