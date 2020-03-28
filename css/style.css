@@ -2959,6 +2959,7 @@ svg.margin {
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/img-19.jpg");
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
@@ -2982,6 +2983,15 @@ svg.margin {
                 justify-content: flex-start;
     }
 
+    #dark {
+        opacity: .9;
+        background: #000;
+        background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
+    }
+
     .heroText {
         padding: 70px 0 0;
         position: relative;
@@ -2992,13 +3002,13 @@ svg.margin {
     }
 
     .heroText h1 {
-        font-size: 2.2em;
+        font-size: 2.6em;
         color: #fff;
         text-align: left;
         font-weight: bold;
         overflow-y: hidden;
         margin: 0;
-        width: 600px;
+        width: 730px;
     }
 
     .heroText h2 {
@@ -3007,7 +3017,7 @@ svg.margin {
         text-align: left;
         line-height: 1.6em;
         padding: 30px 0;
-        width: 680px;
+        width: 640px;
         position: relative;
         font-weight: normal;
     }
@@ -3017,7 +3027,7 @@ svg.margin {
         position: absolute;
         width: 60px;
         height: 5px;
-        background: var(--primary);
+        background: var(--light);
         top: 12px;
     }
 
