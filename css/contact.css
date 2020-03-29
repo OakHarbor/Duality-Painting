@@ -5,12 +5,24 @@
 <--- -------------------------- -*/
 
 #hero {
-    min-height: 200px;
-    height: 200px;
-    background: url('/images/new-home.png');
+    min-height: 300px;
+    height: 300px;
+    background: url('/images/img-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#dark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background: #000;
+    background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
 }
 
 #hero:before {
@@ -40,6 +52,9 @@
             align-items: center;
     z-index: 100;
     margin: auto;
+    -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);   
+            transform: translateY(-20px);
 }
 
 #home-h:before {
@@ -53,6 +68,14 @@
 
 #hero img {
     display: none;
+}
+
+.landing-wave {
+    display: block;
+    position: absolute;
+    height: 50px !important;
+    z-index: 100;
+    bottom: -2px;
 }
 
 /*-- -------------------------- -->
@@ -332,11 +355,20 @@ form p{
         position: relative;
     }
 
+    #dark {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: .7;
+        background: #000;
+        background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        background: radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
+    }
+
     #home-h {
         font-size: 4.375em;
-        -webkit-transform: translateY(50px);
-            -ms-transform: translateY(50px);
-                transform: translateY(50px);
     }
 
     #hero img {
@@ -345,6 +377,14 @@ form p{
         width: 100%;
         bottom: 0;
         z-index: 40;
+    }
+
+    .landing-wave {
+        display: block;
+        position: absolute;
+        height: 150px !important;
+        z-index: 100;
+        bottom: -2px;
     }
 
     /*-- -------------------------- -->
