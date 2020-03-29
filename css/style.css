@@ -2988,7 +2988,7 @@ svg.margin {
     }
 
     #dark {
-        opacity: .9;
+        opacity: .65;
         background: #000;
         background: -moz-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
         background: -webkit-radial-gradient(circle, rgba(0,48,107,1) 0%, rgba(0,0,0,1) 96%);
