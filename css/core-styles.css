@@ -742,7 +742,9 @@ h1, h2, h3, h4, h5, h6 {
 		opacity: 1;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
-		transition: .2s ease;
+        transition: .2s ease;
+        padding-bottom: 36px !important;
+        border-bottom: 3px solid #fff;
 	}
 
 	.side-nav li {
@@ -757,6 +759,8 @@ h1, h2, h3, h4, h5, h6 {
 		border-right: none;
         color: #fff;
         opacity: 1 !important;
+        padding-bottom: 36px !important;
+        border-bottom: 3px solid #fff;
     }
     
     @media screen and (min-width: 1025px) and (max-width: 1456px) {
