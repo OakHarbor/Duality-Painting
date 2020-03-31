@@ -11,7 +11,7 @@
 #hero {
     height: 650px;
     width: 100%;
-    background: url("/images/img-18.jpg");
+    background: url("/images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -2963,13 +2963,13 @@ svg.margin {
     <--- -------------------------- -*/
 
     #hero {
-        background: url("/images/img-19.jpg");
+        background: url("/images/landing.jpg");
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position: bottom;
+        background-position: top;
         color: #fff;
         position: relative;
         display: -webkit-box;
@@ -2988,10 +2988,10 @@ svg.margin {
     }
 
     #dark {
-        opacity: .85;
+        opacity: .99;
         background: #000;
         background: -moz-radial-gradient(circle, rgba(0,48,107,.6) 0%, rgba(0,0,0,1) 96%);
-        background: -webkit-radial-gradient(circle, rgba(0,48,107,.6) 0%, rgba(0,0,0,1) 96%);
+        background: -webkit-radial-gradient(circle, rgba(0,48,107,.9) 0%, rgba(0,0,0,1) 96%);
         background: radial-gradient(circle, rgba(0,48,107,.6) 0%, rgba(0,0,0,1) 96%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00306b",endColorstr="#000000",GradientType=1);
     }

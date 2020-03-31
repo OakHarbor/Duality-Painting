@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
-		height: 100px;
+        height: 100px;
 	}
 
 	.navbar-menu {
@@ -654,7 +654,8 @@ h1, h2, h3, h4, h5, h6 {
 		z-index: 100;
 		left: 0;
 		background: transparent;
-		margin-top: 25px;
+        margin-top: 25px;
+        border-bottom: 1px solid rgba(255,255,255,.5);
 	}
 
 	.navbar-menu:before {
@@ -722,7 +723,8 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav a {
 		padding: 20px 0;
-        color: #fff;
+        color: rgb(241, 241, 241);
+        opacity: .7;
         font-weight: bold;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
@@ -732,7 +734,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav ul li a:hover {
 		cursor: pointer;
-		opacity: .8;
+		opacity: 1;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
@@ -748,7 +750,8 @@ h1, h2, h3, h4, h5, h6 {
 
 	.active-menu {
 		border-right: none;
-		border-bottom: 4px solid var(--light);
+        color: #fff;
+        opacity: 1 !important;
     }
     
     @media screen and (min-width: 1025px) and (max-width: 1456px) {

@@ -218,6 +218,7 @@ html.clicked {
         -ms-flex-pack: distribute;
             justify-content: space-around;
         padding: 10px;
+        margin-top: 100px;
     }
 
     .gallery img {
