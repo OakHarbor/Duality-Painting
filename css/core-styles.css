@@ -730,7 +730,7 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 20px 0;
         color: rgb(241, 241, 241);
         opacity: .7;
-        font-weight: bold;
+        font-weight: normal;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
