@@ -11,6 +11,10 @@
 	        box-sizing: border-box;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 :root {
     --primary: #4d6e97;
     --dark: #00306b;
