@@ -646,6 +646,8 @@ h1, h2, h3, h4, h5, h6 {
 		    -ms-flex-pack: center;
 		        justify-content: center;
         height: 100px;
+        background: #fff;
+        z-index: 100;
 	}
 
 	.navbar-menu {
@@ -663,7 +665,6 @@ h1, h2, h3, h4, h5, h6 {
 		z-index: 100;
 		left: 0;
 		background: transparent;
-        margin-top: 25px;
         border-bottom: 1px solid rgba(255,255,255,.5);
 	}
 
@@ -721,8 +722,9 @@ h1, h2, h3, h4, h5, h6 {
 		    -ms-flex-align: center;
 		        align-items: center;
 		font-weight: normal;
-		margin-left: 40px !important;
-	}
+        margin-left: 40px !important;
+        color: #212121;
+    }
 
 	.call-us svg {
 		width: 20px;
@@ -732,13 +734,13 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav a {
 		padding: 20px 0;
-        color: rgb(241, 241, 241);
-        opacity: .7;
+        color: #212121;
         font-weight: normal;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
-		font-size: 1.125em;
+        font-size: 1.125em;
+        font-weight: bold;
 	}
 
 	.side-nav ul li a:hover {
@@ -752,7 +754,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.side-nav li {
-		color: #fff;
+		color: #212121;
 	}
 
 	#on-top li  {
@@ -763,8 +765,8 @@ h1, h2, h3, h4, h5, h6 {
 		border-right: none;
         color: #fff;
         opacity: 1 !important;
-        padding-bottom: 36px !important;
-        border-bottom: 3px solid #fff;
+        border-bottom: 3px solid var(--primary);
+        color: var(--primary) !important;
     }
     
     @media screen and (min-width: 1025px) and (max-width: 1456px) {
