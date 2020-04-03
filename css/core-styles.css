@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .topper-flex,
 #brand,
-.call-strip-button {
+.call-strip-button,
+.top-nav-strip {
 	display: none;
 }
 
@@ -610,12 +611,39 @@ h1, h2, h3, h4, h5, h6 {
 	.side-nav a {
 		opacity: 1;
 		visibility: visible;
-	}
+    }
+    
+    .top-nav-strip {
+        display: block;
+        height: 36px;
+        background: var(--primary);
+        width: 1500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto;
+    }
+
+    .top-nav-strip svg {
+        height: auto;
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    .svg-group {
+        width: 1600px;
+    }
+
+    .background {
+        background: var(--primary);
+        height: 36px;
+        width: 100%;
+    }
 
 	.quote-nav-button {
         display: block;
-        color: #f5f3f3;
-        background: var(--secondary);
+        color: #fff;
+        background: var(--primary);
     }
     
     .quote-nav-button:hover {
@@ -645,7 +673,7 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
-        height: 100px;
+        height: 124px;
         background: #fff;
         z-index: 100;
 	}
@@ -653,7 +681,7 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar-menu {
 		width: 95% !important;
 		min-height: 100px;
-		height: 100px;
+		height: 130px;
 		margin: auto;
 		position: absolute;
 		display: -webkit-box;
@@ -665,7 +693,6 @@ h1, h2, h3, h4, h5, h6 {
 		z-index: 100;
 		left: 0;
 		background: transparent;
-        border-bottom: 1px solid rgba(255,255,255,.5);
 	}
 
 	.navbar-menu:before {
@@ -676,7 +703,8 @@ h1, h2, h3, h4, h5, h6 {
 		opacity: 1;
 		position: absolute;
 		z-index: -1;
-		border-radius: 5px;
+        border-radius: 5px;
+        display: none;
 	}
 
 	#on-top {
@@ -704,7 +732,8 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-box-pack: end;
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
-		right: 0;
+        right: 0;
+        top: 14px;
 	}
 
 	.side-nav ul li {
@@ -750,7 +779,7 @@ h1, h2, h3, h4, h5, h6 {
 		-o-transition: .2s ease;
         transition: .2s ease;
         padding-bottom: 36px !important;
-        border-bottom: 3px solid #fff;
+        color: var(--primary);
 	}
 
 	.side-nav li {
