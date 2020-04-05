@@ -621,13 +621,41 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        align-items: center;
         margin: auto;
+        position: relative;
+        z-index: 2000;
     }
 
     .top-nav-strip svg {
         height: auto;
         width: 20px;
+        -webkit-transition: ease .2s;
+        -o-transition: ease .2s;
+        transition: ease .2s;
+    }
+
+    .top-nav-strip a {
         margin-left: 10px;
+        -webkit-transition: ease .2s;
+        -o-transition: ease .2s;
+        transition: ease .2s;
+    }
+
+    .top-nav-strip svg:hover {
+        cursor: pointer;
+        opacity: .6;
+        -webkit-transition: ease .2s;
+        -o-transition: ease .2s;
+        transition: ease .2s;
+    }
+
+    .top-nav-strip a:hover {
+        cursor: pointer;
+        opacity: .6;
+        -webkit-transition: ease .2s;
+        -o-transition: ease .2s;
+        transition: ease .2s;
     }
 
     .svg-group {
