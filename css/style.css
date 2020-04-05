@@ -3471,3 +3471,37 @@ svg.margin {
     }
 
 }
+
+/* Iphone 5 */
+@media screen and  (max-width: 340px) {
+
+    .right-card svg:first-child {
+        margin-bottom: 170px;
+    }
+
+    .second {
+        margin-bottom: 220px !important;
+    }
+
+    .fourth {
+        margin-bottom: 200px !important;
+    }
+
+    #margin {
+        margin-bottom: 120px !important;
+    }
+
+}
+
+/* Google Pixel */
+@media screen and (min-width: 405px) and (max-width: 430px) {
+
+    .right-card svg:first-child {
+        margin-bottom: 120px;
+    }
+
+    #margin {
+        margin-bottom: 90px !important;
+    }
+
+}
