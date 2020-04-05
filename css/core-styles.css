@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
 <--- -------------------------- -*/
 
 #contact-strip {
-    background:url("../images/img-1.jpg");
+    background:url("../images/img-1-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 36px;
@@ -633,6 +633,7 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-transition: ease .2s;
         -o-transition: ease .2s;
         transition: ease .2s;
+        margin-left: 20px;
     }
 
     .top-nav-strip a {
@@ -944,6 +945,9 @@ h1, h2, h3, h4, h5, h6 {
 
     #contact-strip {
         background-attachment: fixed;
+        background: url("/images/img-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .contact-group {
@@ -1036,16 +1040,19 @@ footer p {
 	line-height: 2em;
 }
 
-.footer-call {
-	font-size: 1.389em;
-	font-weight: 700;
-	position: relative;
+.p-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
 }
 
-.footer-call i {
-	color: var(--light);
-	font-size: 1.500em;
-	margin-right: 10px;
+.item-content svg {
+    width: 20px !important;
+    height: auto;
+    margin-right: 10px;
 }
 
 .item-3 a {
