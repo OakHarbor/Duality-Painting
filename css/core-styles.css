@@ -827,7 +827,7 @@ h1, h2, h3, h4, h5, h6 {
         color: var(--primary) !important;
     }
     
-    @media screen and (min-width: 1025px) and (max-width: 1456px) {
+    @media screen and (min-width: 1025px) {
 
         .quote-nav-button {display: none;}
         .call-us {display: none;}
@@ -944,8 +944,8 @@ h1, h2, h3, h4, h5, h6 {
     <--- -------------------------- -*/
 
     #contact-strip {
-        background-attachment: fixed;
-        background: url("/images/img-1.jpg");
+        background-attachment: fixed !important;
+        background: url("/images/img-10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
