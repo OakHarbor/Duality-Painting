@@ -1,1 +1,8 @@
 https://dualitypainting.netlify.app/ https://www.dualitypainting.com/ 301!
+http://dualitypainting.netlify.app/ https://www.dualitypainting.com/ 301!
+https://www.dualitypainting.netlify.app/ https://www.dualitypainting.com/ 301!
+http://www.dualitypainting.netlify.app/ https://www.dualitypainting.com/ 301!
+
+https://dualitypainting.com/ https://www.dualitypainting.com/ 301!
+http://dualitypainting.com/ https://www.dualitypainting.com/ 301!
+http://www.dualitypainting.com/ https://www.dualitypainting.com/ 301!
