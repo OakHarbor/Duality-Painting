@@ -1,1 +1,3 @@
 Sitemap: https://www.dualitypainting.com/sitemap.xml
+User-agent: *
+Disallow:
